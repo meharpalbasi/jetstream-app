@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jetstream: a tower frequency to work to</title>
+  <meta name="description" content="Jetstream plays a generated airport tower frequency over lo-fi and cabin noise, with a radar of the live traffic around the airport. Support, privacy and terms.">
+  <meta name="theme-color" content="#0a1020">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="column">
+    <header class="top">
+      <a class="home" href="index.html">Jetstream</a>
+      <nav>
+        <a href="#support">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img src="icon.png" width="96" height="96" alt="Jetstream app icon: a radar sweep and one aircraft on a night-blue ground">
+        <p class="label">For iPhone and iPad</p>
+        <h1 class="display">Jetstream</h1>
+        <p class="lede">A tower frequency to work to. Tune an airport's tower and you hear a controller working the traffic around it, with lo-fi and airliner cabin noise underneath and a radar of the aircraft it's talking to.</p>
+        <p class="note"><span class="label">About the tower</span>The tower you hear is generated from live flight data. It isn't real air traffic control, and Jetstream never plays a recording of a real frequency.</p>
+      </section>
+
+      <h2>In the app</h2>
+      <ul class="rows">
+        <li><strong>18 towers</strong>, from New York JFK, London Heathrow and Gatwick to Tokyo Haneda, Sydney and Brasília, each with its own controller. Heathrow and Gatwick talk the UK way.</li>
+        <li><strong>The scope.</strong> A radar of the traffic around the airport, with real runway layouts. The rim glows green while someone transmits; tap a blip to see what it is and what it's doing.</li>
+        <li><strong>Captions.</strong> One quiet line under the scope shows who's talking and what they say.</li>
+        <li><strong>The mix.</strong> Radio, Lo-fi and Cabin faders. Jetstream makes the lo-fi on your device as it plays, so it never repeats and works offline.</li>
+        <li><strong>Flights.</strong> A focus timer framed as a flight: 25, 50 or 90 minutes, ending with a cabin chime and a fade.</li>
+        <li><strong>Everywhere you work.</strong> Background playback, lock screen controls, a Live Activity, Siri and Shortcuts, and a two-column layout on iPad in landscape.</li>
+      </ul>
+
+      <h2>Free and Premium</h2>
+      <p>Jetstream is free with three towers: New York JFK, London Heathrow, and a tower of the day that changes daily. Captions, the scope, the mixer, Siri and the Live Activity are free too.</p>
+      <p><strong>Jetstream Premium</strong> adds all 18 towers (and new ones as they're added), flights, and the Quiet and Busy frequencies. It's a yearly subscription or a one-time lifetime purchase, bought through the App Store; the app shows the price before you buy. <a href="terms.html#premium">How subscriptions work</a></p>
+
+      <h2>Questions</h2>
+      <h3>Is this real air traffic control?</h3>
+      <p>No. The aircraft on the scope are real, from live ADS-B data, but everything you hear is generated: Jetstream writes the calls a tower would make to those aircraft, and synthetic voices speak them through a modelled radio. Never use it for flying or anything operational.</p>
+
+      <h3>Why does the scope say SIM?</h3>
+      <p>When the flight data can't be reached (you're offline, or the feed is down), Jetstream switches to simulated traffic and says so: SIM in the status row, and "Traffic · simulated" under the scope. It switches back when the data returns.</p>
+
+      <h3>Does it work offline?</h3>
+      <p>Yes. The voices, the radio and the lo-fi are all on your device. Offline, the tower talks to simulated traffic and invents its weather.</p>
+
+      <h3>How do I restore Premium on a new device?</h3>
+      <p>Sign in to the App Store with the same Apple Account, then use Restore Purchases in the app.</p>
+
+      <h3>How do I cancel the subscription?</h3>
+      <p>In your Apple Account's subscriptions (on iPhone: Settings, your name, Subscriptions). Premium stays on until the end of the period you've paid for. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+      <h3>Does Jetstream collect my data?</h3>
+      <p>No account, no ads, no tracking, no analytics. The <a href="privacy.html">privacy policy</a> lists every request the app makes.</p>
+
+      <h2 id="support">Support</h2>
+      <p>Something wrong, or a tower you'd like to hear? Email <a href="mailto:meharpalbasi45@gmail.com">meharpalbasi45@gmail.com</a>. Say which device and iOS version you're on, and which tower.</p>
+
+      <h2>Credits</h2>
+      <p class="quiet">Traffic data from <a href="https://adsb.lol">adsb.lol</a> (ODbL). Weather from <a href="https://aviationweather.gov">aviationweather.gov</a>. Runways from <a href="https://ourairports.com/data/">OurAirports</a>. Airline callsigns from FAA JO 7340.2. Voices made with <a href="https://huggingface.co/hexgrad/Kokoro-82M">Kokoro-82M</a> by hexgrad (Apache-2.0), whose training data includes CC BY audio (Koniwa, CC BY 3.0; SIWIS French Speech Synthesis Database, CC BY 4.0). B612 Mono by Airbus, under the <a href="fonts/OFL.txt">SIL Open Font License</a>.</p>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 Meharpal Basi</span>
+      <nav>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
